@@ -1,0 +1,65 @@
+DOCKER IS AVALIABLE IN TO TYPES 
+CE 	COMMUNITY EDITION    FREE  .
+EE  ENTERPRISE EDITION   LICENCED 
+
+Day 1 intro
+
+
+
+==============================================================================================================================================
+	how to install docer in windows from chrome and run the command in power shell 
+	power shell is present by default in windows machine ,open the power shell and run commands 
+==============================================================================================================================================
+Day 2 creating AWS account 
+	ec2> choose instance>choose ram > security  all traffic and any where> download key pairs >new>key pair must NOT HAVE SPACE and launch instance
+	DOWNLOAD GIT from chrome and install 
+	git works as interface,
+	connect instance on aws console > copy ssh key  
+	open git and change cd(command promopt)where the downloaded key pair is present 
+	copy the ssh key and paste in git interface and enter
+	it will ask yes or no type yes....your linux server is ready
+===============================================================================================================================================
+ IMAGES IS COMBINATION OF BINARYS AND LIBRAYS 
+	open get.docker.com and copy 
+	$ curl -fsSL https://get.docker.com -o get-docker.sh
+	 $ sh get-docker.sh 
+	then execute it will cownload docker 
+	docker pull image name to download a docker image
+	docker rmi image name to delete image 
+	docker system prune -af to delete all images 
+	docker images to see images present in docker 
+	docker search image name to search image 
+	docker pust image name to push a image into docker hub
+	to get detailed info about a image that is not linked to any container 
+	docker image inspect image name/id
+	to delete docker image that is not linked to any container 
+	docker rmi-f image name/id
+	to save docker image as tar file
+	docker save image name 
+	to untar the tar file and get image
+	docker load tarfile name    		
+
+				DO PRACTICE OF PULLING IMAGES,DELETE ,IMAGES LIST,VERSION,DELETE ALL IMAGES 
+===================================================================================================================================================
+DAY 3
+	how to create container ....if a image is in running condition the it is called container 
+	use 
+	port mapping
+	using public server seeing tomcat
+
+sudo su to switch user to root id if some permissions are denied
+
+	go through 25 no commands 
+
+	docker run --name u1 -d -P ununtu to download ubuntu in detached mode 
+	-d to work in detached mode
+ 	-P for auto porting
+	-it to open interactive terminal in ununtu software
+ 
+
+
+=====================================================================================================
+	DAY 4
+	multi culture architecture or micro services 
+
+	ping    connecting one container to another container by ping
